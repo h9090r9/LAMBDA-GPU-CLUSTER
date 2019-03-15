@@ -105,7 +105,7 @@ echo "Apart from this accept all default values again"
 
 ./configure
 
-# There is an error in Ubuntu 18.04 which will make bazel not get the correct packages
+# There is an error in Ubuntu 18.04.1 which will make bazel not get the correct packages
 # This has to be fixed manually:
 # Download jre from here: http://www.oracle.com/technetwork/java/javase/downloads/jre10-downloads-4417026.html
 # Extract jre-10.0.2/lib/security/cacerts to ~/cacerts
